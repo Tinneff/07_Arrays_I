@@ -154,11 +154,15 @@ function getSentenceArr2(arr) {
     let str = "";
 
     for (let i = 0; i < arr.length; i++) {
-        str += arr[i] + GAP;
-        // output(str); 
+       
+       // 2. Variante IF-ELSE
+        if (i != arr.length -1)
+         {
+             str += arr[i] + GAP;
+         } else {
+             str += arr[i] + PUNCT;
+         }
     }
-
-    str = str + PUNCT;
 
    return str;
 }
@@ -172,3 +176,4 @@ function getSentenceArr2(arr) {
 function output(outputStr) {
     console.log(outputStr);
 }
+  
