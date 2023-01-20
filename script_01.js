@@ -171,4 +171,8 @@ function getSentenceArr2(arr) {
 // output("hi"); 
 function output(outputStr) {
     console.log(outputStr);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 76c42920c723ce2700185d2ca3e96abce91bd202
